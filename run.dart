@@ -1,7 +1,3 @@
-// void main(){
-//     print(6);
-// }
-
 String demoFunction() {
   return "This is a demo function.";
 }
