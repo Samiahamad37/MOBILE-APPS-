@@ -2,7 +2,6 @@
 // // //   return "This is a demo function.";
 // // // }
 
-
 // // void main() {
 // //   print("Hello, World!");
 // // }
@@ -21,7 +20,34 @@
 // //   print(a);
 // // }
 
-
 // void main() {
 //   print("Hello $name");
-// }
+// // }
+// void main() {
+//   Map <string ,dynamic> student = {
+//     'name': 'Alice',
+//     'age': 30,
+//     'city': 'New York'
+//   };
+//   print(student['name']);
+//   student['name'] = 'samia';
+//   print(student['name']);
+// student.forEach((key, value)){
+//     print('$key: $value');
+//   };
+// 
+
+
+// ************NULL SAFETY************** A value cannot be null unless is assigned as null
+int checkValue(int? someValue) {
+   if (someValue == null) {
+      return 0;
+   }
+   // At this point the value is not null.
+   return someValue.abs();
+}
+
+void main(){
+    print(checkValue(5));
+    print(checkValue(null));
+}
