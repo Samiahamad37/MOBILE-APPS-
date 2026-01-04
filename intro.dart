@@ -1,12 +1,11 @@
 void main() {
-  String name = "samya";
+  String name = "charmy";
   printName("Mrs.Mbura");                  
 }
 
 void printName(String name) {
   print("my name is $name");
 }
-
 // returntype functionName(inputs){
 // function body
 // }

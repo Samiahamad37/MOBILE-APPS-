@@ -35,19 +35,22 @@
 // student.forEach((key, value)){
 //     print('$key: $value');
 //   };
-// 
+//
 
+// // ************NULL SAFETY************** A value cannot be null unless is assigned as null
+// int checkValue(int? someValue) {
+//    if (someValue == null) {
+//       return 0;
+//    }
+//    // At this point the value is not null.
+//    return someValue.abs();
+// }
 
-// ************NULL SAFETY************** A value cannot be null unless is assigned as null
-int checkValue(int? someValue) {
-   if (someValue == null) {
-      return 0;
-   }
-   // At this point the value is not null.
-   return someValue.abs();
-}
+// void main(){
+//     print(checkValue(5));
+//     print(checkValue(null));
+// }
 
-void main(){
-    print(checkValue(5));
-    print(checkValue(null));
+void main() {
+  var x = 10;
 }
