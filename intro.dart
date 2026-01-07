@@ -1,6 +1,7 @@
 void main() {
   String name = "charmy";
-  printName("Mrs.Mbura");                  
+  printName("Mrs.Mbura"); 
+  printName(name);                 
 }
 
 void printName(String name) {
