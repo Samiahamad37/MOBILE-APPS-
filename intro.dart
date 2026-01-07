@@ -15,7 +15,7 @@ void printName(String name) {
 //   String name = "SAMIA";
 //   print(
 //     "my name is $name",
-  // ); // print doesnt exit and desplay everything on scren  while print exit the whole fxn
+  // ); // print doesnt exit and desplay everything on scren  while return exit the whole fxn
 // }
 
 // String pritnName() {
