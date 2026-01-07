@@ -53,4 +53,8 @@
 
 void main() {
   var x = 10;
+  var y = 20;
+  var max = (x > y) ? x : y;
+  print("The maximum value is $max");
 }
+  
