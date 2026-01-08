@@ -1,12 +1,16 @@
-void main() {
-  
-}
+void main() {}
 
 class User {
-  String username = "samia";
-  int age = 22;
+  String _username;
 
-  void login() {
-  print('User logged in');
-  }
+  User(this._username);
+
+  String get username => _username;
+  set username(String value) => _username = value;
+}
+
+class Admin extends User {
+  List<String> permissions = ['delete', 'edit'];
+
+  Admin(String username) : super(username);
 }
